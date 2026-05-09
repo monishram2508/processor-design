@@ -113,7 +113,7 @@ Branch outcomes are resolved in the EX stage. The pipeline flushes instructions 
 
 ## Supported Instructions
 
-Full RV64I base integer instruction set:
+Supported RV64I base integer instruction set:
 
 | Type | Instructions |
 |---|---|
@@ -122,8 +122,6 @@ Full RV64I base integer instruction set:
 | Load | LB, LH, LW, LD, LBU, LHU, LWU |
 | Store | SB, SH, SW, SD |
 | Branch | BEQ, BNE, BLT, BGE, BLTU, BGEU |
-| Jump | JAL, JALR |
-| Upper | LUI, AUIPC |
 
 ---
 
